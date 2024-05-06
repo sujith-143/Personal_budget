@@ -1,0 +1,49 @@
+/* Styles for headings */
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-top: 40px;
+}
+
+/* Styles for paragraphs */
+p {
+  font-size: 1.8rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Styles for list items */
+li {
+  font-size: 1.8rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Styles for strong tags */
+strong {
+  font-weight: bold;
+}
+
+/* Container styles */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  // background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Background color for the entire page */
+body {
+  background-color: #f3f4f6;
+  font-family: 'Roboto', sans-serif;
+}
