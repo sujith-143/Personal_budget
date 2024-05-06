@@ -63,7 +63,9 @@ function App() {
       const remainingTime = newExpirationTime - Date.now();
 
       axios
-        .post(`http://localhost:4000/refresh-token/${userData}`)
+        .post(
+          `https://personal-budget-2z33.onrender.com/refresh-token/${userData}`
+        )
         .then((res) => {
           const newtoken = res.data.token;
           console.log(newtoken);

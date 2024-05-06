@@ -40,7 +40,7 @@ function ManageExpense() {
         const token = localStorage.getItem("token");
 
         const categoriesResponse = await axios.get(
-          `http://localhost:4000/get-categories/${userData}?month=${selectedMonth}`,
+          `https://personal-budget-2z33.onrender.com/get-categories/${userData}?month=${selectedMonth}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -76,7 +76,7 @@ function ManageExpense() {
         return;
       }
       await axios.post(
-        "http://localhost:4000/add-expense",
+        "https://personal-budget-2z33.onrender.com/add-expense",
         {
           userData: userData,
           month: selectedMonth,
