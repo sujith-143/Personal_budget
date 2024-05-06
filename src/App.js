@@ -35,7 +35,7 @@ function App() {
       );
       if (storedExpirationTime && storedExpirationTime > Date.now()) {
         intervalIdRef.current = setInterval(() => {
-          console.log("CHECKINGHARSHA", storedExpirationTime, Date.now());
+          console.log("CHECKING", storedExpirationTime, Date.now());
           const remainingTime = storedExpirationTime - Date.now();
 
           if (remainingTime <= 0) {
