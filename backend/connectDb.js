@@ -4,7 +4,7 @@ const chalk = require("chalk");
 const connectDB = async () => {
   try {
     const url =
-      "mongodb+srv://sujithari143:sujith123@cluster0.nrh6xqp.mongodb.net/NBAD";
+      "mongodb+srv://sujithari143:wTc39TGyvCt4gTqf@cluster0.nrh6xqp.mongodb.net/NBAD"; //  MongoDB URL
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,

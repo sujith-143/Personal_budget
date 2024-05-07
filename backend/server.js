@@ -11,7 +11,7 @@ const BudgetSchema = require("./models/BudgetModel");
 const ExpenseSchema = require("./models/ExpenseModel");
 
 let url =
-  "mongodb+srv://sujithari143:sujith123@cluster0.nrh6xqp.mongodb.net/NBAD";
+  "mongodb+srv://sujithari143:wTc39TGyvCt4gTqf@cluster0.nrh6xqp.mongodb.net/NBAD";
 
 const bcrypt = require("bcrypt");
 const port = 4000;
