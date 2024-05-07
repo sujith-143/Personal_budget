@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     const isLogdIn = localStorage.getItem("isLoggedIn") === "true";
-    console.log("CHECK", isLogdIn);
+    console.log("CHECKING", isLogdIn);
     if (isLogdIn) {
       const storedExpirationTime = parseInt(
         localStorage.getItem("expirationTime"),
