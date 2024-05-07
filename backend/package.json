@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "Harsha Peteti",
+  "author": "Sujith Ari",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
